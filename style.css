@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #64b5f6, #f48fb1);
+    color: #333;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.frosted-box {
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: background 0.3s ease;
+}
+
+.section-box {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+}
+
+.bio-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    height: 100%;
+    color: #222;
+}
+
+.blog-links {
+    text-align: center;
+}
+
+    .blog-links h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        color: #3f51b5;
+    }
+
+    .blog-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .blog-links a {
+        color: #1565c0;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.2s ease;
+    }
+
+        .blog-links a:hover {
+            color: #512da8;
+            text-decoration: underline;
+        }
+
+.social-links {
+    text-align: center;
+}
+
+    .social-links h2 {
+        font-size: 1.8em;
+        margin-bottom: 14px;
+        color: #3f51b5;
+    }
+
+    .social-links p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .social-links ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-links li a {
+        color: #1565c0;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.2s ease;
+    }
+
+        .social-links li a:hover {
+            color: #512da8;
+            text-decoration: underline;
+        }
+
+.blog-post {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 30px;
+}
+
+    .blog-post h1 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        color: #3f51b5;
+        text-align: center;
+    }
+
+    .blog-post p {
+        margin-bottom: 15px;
+        text-align: left;
+        color: #222;
+    }
+
+.blog-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    font-size: 0.95em;
+    margin-top: 40px;
+}
+
+.back-home-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.back-home-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: white;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+    .back-home-button:hover {
+        background-color: #303f9f;
+    }
+
+.code-block {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    border: 1px solid #1c3a5e;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+    overflow-x: auto;
+    width: fit-content;
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+    .code-block pre {
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-bottom: 15px;
+        white-space: pre;
+    }
